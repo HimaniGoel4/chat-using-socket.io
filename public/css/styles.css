@@ -1,0 +1,57 @@
+.chat-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #481add;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .messages {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #110b93;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .message {
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  .server-message {
+    background-color: #f2eaa7;
+    margin-right: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .client-message {
+    background-color: #71dce8;
+    margin-left: 20%;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  #messageInput {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
